@@ -15,4 +15,6 @@ go run main.go ip --host amazon.com.br
 > Nota 2: Caso não seja informado o trecho "--host amazon.com.br" a busca a ser feita será para 'google.com"
 
 2. Buscar por servidores
-> Sendo produzido
+```shell
+ go run main.go servers --host amazon.com.br
+ ```
