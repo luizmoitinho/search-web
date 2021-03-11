@@ -6,6 +6,7 @@
 go mod init
 go mod tidy
 ```
+
 ### Testando
 1. Busca de IPs na Web
 ```shell
@@ -18,3 +19,8 @@ go run main.go ip --host amazon.com.br
 ```shell
  go run main.go servers --host amazon.com.br
  ```
+
+3. Execute com o build do projeto
+```shell
+ ./search-web ip --host amazon.com.br
+```
